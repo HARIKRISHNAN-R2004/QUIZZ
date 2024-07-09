@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home">
+        <h1>IQ QUIZ</h1>
+        <img src="200w.gif" alt="Computer man" />
+        <div class="container">
+            <h2>User Details</h2>
+            <form id="userForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+                <button type="submit">Let's Play</button>
+            </form>
+        </div>
+        <h3>General Rules</h3>
+        <p>Participation: The quiz is open to anyone who wishes to participate.</p>
+        <p>Quiz Format: The quiz consists of 30 questions, which may include multiple-choice and true/false.</p>
+        <p>Time Limit: Players have a total of 30 minutes to complete all 30 questions.</p>
+    </div>
+
+    <div id="quiz1" class="quiz-page">
+        <h1>IQ QUIZ</h1>
+        <div id="timer1" class="timer">10:00</div>
+        <img src="200w.gif" alt="Computer man" />
+        <form id="quizForm1">
+            <div id="questionsContainer1"></div>
+            <div class="button-container">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="quiz2" class="quiz-page">
+        <h1>IQ QUIZ</h1>
+        <div id="timer2" class="timer">10:00</div>
+        <img src="200w.gif" alt="Computer man" />
+        <form id="quizForm2">
+            <div id="questionsContainer2"></div>
+            <div class="button-container">
+                <button type="button" id="prev2">Previous</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="quiz3" class="quiz-page">
+        <h1>IQ QUIZ</h1>
+        <div id="timer3" class="timer">10:00</div>
+        <img src="200w.gif" alt="Computer man" />
+        <form id="quizForm3">
+            <div id="questionsContainer3"></div>
+            <div class="button-container">
+                <button type="button" id="prev3">Previous</button>
+                <button type="button" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
